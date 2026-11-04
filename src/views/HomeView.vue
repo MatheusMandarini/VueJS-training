@@ -7,7 +7,7 @@
 
   onMounted(async () =>{
     try{
-      const response = await fetch('http://localhost:3000/eventos')
+      const response = await fetch('/eventos.json')
       if(!response.ok){
         throw new Error('Erro ao buscar eventos')
       }
