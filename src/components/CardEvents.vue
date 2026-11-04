@@ -1,21 +1,19 @@
 <script setup>
     import { defineProps } from 'vue'
-
+    function formartDate(date){
+        return date.split('-').reverse().join('/')
+    }
     defineProps({
-        titulo: String,
-        data: String,
-        local: String,
-        categoria: String
+        evento: Object
     })
-    data.split('-').reverse().join('/')
-
+    
 </script>
 <template>
     <article>
-        <div>title: {{ titulo }}</div>
-        <div>date: {{ data }}</div>
-        <div>location: {{ local }}</div>
-        <div>category: {{ categoria }}</div>
+        <div>title: {{ evento.titulo }}</div>
+        <div>date: {{ formartDate(evento.data) }}</div>
+        <div>location: {{ evento.local }}</div>
+        <div>category: {{ evento.categoria }}</div>
 
     </article>
 </template>
