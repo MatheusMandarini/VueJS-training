@@ -8,6 +8,14 @@
     "categoria": "Workshop"
   },
   {
+    "id": "5",
+    "titulo": "Introdução",
+    "descricao": "Oficina.",
+    "data": "2027-03-15",
+    "local": "Lab",
+    "categoria": "Workshop"
+  },
+  {
     "id": "2",
     "titulo": "Carreira em Desenvolvimento Web",
     "descricao": "Bate-papo com egressos que atuam no mercado.",
