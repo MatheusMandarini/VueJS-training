@@ -14,7 +14,7 @@
         <div>date: {{ formartDate(evento.data) }}</div>
         <div>location: {{ evento.local }}</div>
         <div>category: {{ evento.categoria }}</div>
-
+        <hr/>
     </article>
 </template>
 <style scoped>
